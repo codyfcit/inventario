@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: #e9acb6;
+    text-align: center;
+    margin-top: 0px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #720a32; 
+    font-size: 1.8em; 
+    margin-bottom: 20px;  
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 6px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
